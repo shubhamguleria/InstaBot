@@ -213,6 +213,10 @@ def start_bot():
         elif choice=="h":
             insta_username = input("Enter the username of the user: ")
             post_a_comment(insta_username)
+            
+        elif choice=="m":
+            insta_username = input("Enter the username of the user: ")
+            del_a_comment(insta_username)
         elif choice=="l":
             insta_username = input("Enter the username of the user: ")
             get_user_id(insta_username)
